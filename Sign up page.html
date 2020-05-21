@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="author" content="Samuel Amagbakhen">
+<meta name="description" content="signup page">
+
+<head>
+
+    <style type="text/css">
+        /*Style sheet*/
+
+        @font-face {
+            font-family: helvetica;
+            src: url(helvetica-rounded-bold-5871d05ead8de.otf)
+        }
+
+        body {
+            font-family: helvetica;
+            text-align: center;
+        }
+
+        [type=text],
+        [type=password],
+        [type=email] {
+            border-radius: 2px;
+            padding: 3%;
+            font-family: helvetica;
+            border: 1px solid grey;
+
+        }
+
+        button {
+            font-family: helvetica;
+            padding: 1% 40%;
+            background-image: linear-gradient(to right, #B99AE1, #B0D9E1);
+            border: 0px solid white;
+            border-radius: 2px;
+        }
+
+        a {
+            color: black;
+        }
+
+        form {
+            background-color: aliceblue;
+            border: 1px solid aliceblue;
+            border-radius: 0.;
+            width: 50%;
+            display: inline-block;
+            border-radius: 2px;
+        }
+
+        p {
+            font-size: 12px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+
+    <form action="">
+        <!--This is a form-->
+
+        <h3> CREATE ACCOUNT</h3>
+        <p><input type="text" placeholder="Your Name" size=40 required></p>
+        <p><input type="email" placeholder="Your Email" size=40 required></p>
+        <p><input type="password" placeholder="Your Password" size=40 required></p>
+        <p><input type="password" placeholder="Repeat your password" size=40 required></p>
+
+        <p> I agree to all statements in <a href="#"> Terms of Service</a></p>
+
+        <button type="submit"> Submit</button>
+
+        <p> Have an account already? <a href="#"> Login here</a></p>
+
+    </form>
+
+</body>
+
+</html>
